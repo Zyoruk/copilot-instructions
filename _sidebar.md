@@ -1,7 +1,8 @@
 # Copilot Instructions
 
-* [General](copilot-general.instructions.md)
-* [Angular](angular.instructions.md)
-* [NestJS](nestjs.instructions.md)
-* [Database](database.instructions.md)
-* [Testing](testing.instructions.md)
+* [General](docs/copilot-general.instructions.md)
+* [Angular](docs/angular.instructions.md)
+* [NestJS](docs/nestjs.instructions.md)
+* [Database](docs/database.instructions.md)
+* [Testing](docs/testing.instructions.md)
+
