@@ -1,8 +1,7 @@
 ---
 applyTo: '**/*spec.ts'
 ---
-### Scope
-Use these instructions to guide the generation of unit tests or when reviewing code for quality. These apply to both backend and frontend testing.
+Scope: Use these instructions to guide the generation of unit tests or when reviewing code for quality. These apply to both backend and frontend testing.
 
 ### Unit Test Structure
 - Follow the **Arrange-Act-Assert** pattern when generating tests.
