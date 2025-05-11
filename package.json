@@ -1,8 +1,7 @@
 {
   "name": "copilot-instructions",
   "version": "1.0.0",
-  "description": "[![Deploy static content to Pages](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml/badge.svg)](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml)",
-  "main": "index.js",
+  "description": "Structured instructions and best practices for using GitHub Copilot effectively across various technologies. Includes docs for Angular, NestJS, database, and testing workflows. Powered by Docsify.",
   "directories": {
     "doc": "docs"
   },
@@ -10,9 +9,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "copilot",
+    "instructions",
+    "best practices",
+    "docsify",
+    "angular",
+    "nestjs",
+    "database",
+    "testing"
+  ],
+  "author": "Zyoruk",
+  "license": "MIT",
+  "homepage": "https://zyoruk.github.io/copilot-instructions/#/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zyoruk/copilot-instructions.git"
+  },
   "devDependencies": {
     "standard-version": "^9.5.0"
   }

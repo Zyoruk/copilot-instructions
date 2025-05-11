@@ -1,51 +1,43 @@
 [![Deploy static content to Pages](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml/badge.svg)](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml)
 
-# Copilot Instructions Repository
+# Copilot Instructions
 
-This repository is designed to hold structured instructions and best practices for using GitHub Copilot effectively across various technologies and workflows. Each instruction file provides targeted guidance for Copilot usage in specific frameworks, languages, or development scenarios.
+Structured instructions and best practices for using GitHub Copilot effectively across various technologies.
 
-## Repository Structure
+- **Docsify-powered documentation**: [View the docs](https://zyoruk.github.io/copilot-instructions/#/)
+- Covers: Angular, NestJS, database, and testing workflows
+- Includes: Coding standards, releasing, and security guidelines
 
-- `copilot-general.instructions.md`: General tips, tricks, and best practices for using Copilot in any project.
-- `angular.instructions.md`: Instructions and Copilot usage patterns for Angular projects.
-- `nestjs.instructions.md`: Guidance for leveraging Copilot in NestJS development.
-- `database.instructions.md`: Copilot instructions for working with databases, including query generation and schema design.
-- `testing.instructions.md`: Best practices for using Copilot to write and maintain tests.
+## Getting Started
 
-## How to Use
-
-1. **Browse the relevant instruction file** for your technology or use case.
-2. **Follow the outlined best practices** to maximize Copilot's effectiveness.
-3. **Contribute improvements** by editing or adding new instruction files as needed.
-
-## How to Contribute New Instruction Sets
-
-To add a new instruction file:
-1. Create a new `.instructions.md` file in the `docs/` directory.
-2. Use the following template:
-   ```md
-   ---
-   applyTo: '**'
-   ---
-   Scope: Briefly describe the purpose and scope of these instructions.
-   
-   ### Section Title
-   - List actionable rules or best practices here.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Zyoruk/copilot-instructions.git
    ```
-3. Add your file to `_sidebar.md` for navigation.
-4. Submit a pull request with a summary of your changes.
+2. Install dependencies (for release tooling):
+   ```sh
+   npm install
+   ```
+3. To view the documentation locally, install Docsify globally and run:
+   ```sh
+   npm install -g docsify-cli
+   docsify serve .
+   ```
 
-## Continuous Improvement
-- Keep these instructions updated as the project evolves.
-- Refine instructions if Copilot frequently suggests undesirable patterns.
-- Align Copilot’s output with evolving best practices and standards.
+## Documentation Structure
 
-## Contributing
+- All instructions are in the `docs/` directory, organized by topic.
+- Main entry: [`index.html`](index.html)
+- Sidebar navigation: [`_sidebar.md`](_sidebar.md)
 
-- Please keep instructions clear, concise, and focused on practical Copilot usage.
-- Use Markdown formatting for readability.
-- Submit pull requests for any additions or changes.
+## Release
+
+Release management uses [standard-version](https://github.com/conventional-changelog/standard-version):
+
+```sh
+npm run release
+```
 
 ## License
 
-This repository is open for community contributions. Please ensure all content is original or properly attributed.
+MIT © Zyoruk
