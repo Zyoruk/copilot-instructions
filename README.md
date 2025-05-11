@@ -1,3 +1,5 @@
+[![Deploy static content to Pages](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml/badge.svg)](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml)
+
 # Copilot Instructions Repository
 
 This repository is designed to hold structured instructions and best practices for using GitHub Copilot effectively across various technologies and workflows. Each instruction file provides targeted guidance for Copilot usage in specific frameworks, languages, or development scenarios.
