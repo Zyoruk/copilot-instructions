@@ -24,6 +24,14 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Run standard-version
         run: npx standard-version
+      - name: Check and delete existing release-automation branch
+        run: |
+          if git ls-remote --exit-code --heads origin release-automation; then
+            echo "Branch release-automation exists. Deleting it..."
+            git push origin --delete release-automation
+          else
+            echo "Branch release-automation does not exist. Proceeding..."
+          fi
       - name: Create Pull Request for Release
         uses: peter-evans/create-pull-request@v6
         with:
