@@ -6,5 +6,4 @@
 * [NestJS](docs/nestjs.instructions.md)
 * [Database](docs/database.instructions.md)
 * [Testing](docs/testing.instructions.md)
-* [Coding Standards](docs/coding-standards.instructions.md)
 
