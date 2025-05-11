@@ -3,4 +3,4 @@
 git add .
 git commit -m "Update docsify site"
 git push origin main
-git subtree push --prefix . origin gh-pages
+git subtree push origin gh-pages
