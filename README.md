@@ -18,6 +18,11 @@ This repository is designed to hold structured instructions and best practices f
 2. **Follow the outlined best practices** to maximize Copilot's effectiveness.
 3. **Contribute improvements** by editing or adding new instruction files as needed.
 
+## Continuous Improvement
+- Keep these instructions updated as the project evolves.
+- Refine instructions if Copilot frequently suggests undesirable patterns.
+- Align Copilot’s output with evolving best practices and standards.
+
 ## Contributing
 
 - Please keep instructions clear, concise, and focused on practical Copilot usage.
