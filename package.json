@@ -1,0 +1,19 @@
+{
+  "name": "copilot-instructions",
+  "version": "1.0.0",
+  "description": "[![Deploy static content to Pages](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml/badge.svg)](https://github.com/Zyoruk/copilot-instructions/actions/workflows/static.yml)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}

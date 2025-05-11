@@ -1,0 +1,28 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Build
+build/
+
+# Misc
+.env
+*.local
+
+# Standard Version
+*.tgz
+
+# Docsify cache
+.cache/

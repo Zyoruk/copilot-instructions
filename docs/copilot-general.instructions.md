@@ -43,11 +43,22 @@ Scope: Define broad rules for consistent and best-practice-driven code generatio
 - Treat suggestions as drafts that may need refinement.
 - Test and verify AI-generated code as you would with peer-written code.
 
-### Continuous Improvement
-- Keep these instructions updated as the project evolves.
-- Refine instructions if Copilot frequently suggests undesirable patterns.
-- Align Copilot’s output with evolving best practices and standards.
+### Copilot Assistance: Hallucination Avoidance
+- Do not invent APIs, libraries, or behaviors that do not exist in the codebase or official documentation.
+- When unsure, add a comment indicating uncertainty and suggest verification.
+- Prefer citing sources or linking to documentation for non-trivial suggestions.
 
-### Future Categories
-- Consider adding instruction sets for other scenarios (e.g., Commit Message Guidelines, Code Review Tips).
-- Tailor additional categories to enhance consistency and efficiency across all development aspects.
+### Commit Message Guidelines
+- Follow Conventional Commits: use types like feat, fix, chore, docs, refactor, test, perf, style.
+- Structure: <type>(<scope>): <short description> (e.g., fix(api): handle null responses)
+- Use imperative mood and keep messages concise.
+
+### Versioning Rules
+- Use Semantic Versioning (SemVer): MAJOR.MINOR.PATCH.
+- Bump versions based on commit types: breaking changes = major, features = minor, fixes = patch.
+- Automate versioning where possible based on commit history.
+
+### Copilot Code Reviewer Instructions
+- Provide clear, actionable, and constructive feedback.
+- Focus on correctness, security, maintainability, and adherence to project standards.
+- Avoid personal or subjective comments; be objective and concise.

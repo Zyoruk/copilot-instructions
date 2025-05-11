@@ -1,5 +1,6 @@
 # Copilot Instructions
 
+* [Coding Standards](docs/coding-standards.instructions.md)
 * [General](docs/copilot-general.instructions.md)
 * [Angular](docs/angular.instructions.md)
 * [NestJS](docs/nestjs.instructions.md)
