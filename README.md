@@ -18,6 +18,23 @@ This repository is designed to hold structured instructions and best practices f
 2. **Follow the outlined best practices** to maximize Copilot's effectiveness.
 3. **Contribute improvements** by editing or adding new instruction files as needed.
 
+## How to Contribute New Instruction Sets
+
+To add a new instruction file:
+1. Create a new `.instructions.md` file in the `docs/` directory.
+2. Use the following template:
+   ```md
+   ---
+   applyTo: '**'
+   ---
+   Scope: Briefly describe the purpose and scope of these instructions.
+   
+   ### Section Title
+   - List actionable rules or best practices here.
+   ```
+3. Add your file to `_sidebar.md` for navigation.
+4. Submit a pull request with a summary of your changes.
+
 ## Continuous Improvement
 - Keep these instructions updated as the project evolves.
 - Refine instructions if Copilot frequently suggests undesirable patterns.
