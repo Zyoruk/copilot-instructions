@@ -1,6 +1,6 @@
 {
   "name": "copilot-instructions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Structured instructions and best practices for using GitHub Copilot effectively across various technologies. Includes docs for Angular, NestJS, database, and testing workflows. Powered by Docsify.",
   "directories": {
     "doc": "docs"
