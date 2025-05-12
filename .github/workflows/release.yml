@@ -8,7 +8,7 @@ on:
 
 jobs:
   release:
-    if: github.ref != 'refs/heads/release-automation'
+    if: ${{ github.ref != 'refs/heads/release-automation' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
